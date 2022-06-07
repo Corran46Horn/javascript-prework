@@ -1,4 +1,4 @@
-var argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput;
+let argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput;
 
 /**
  * Describe this function...
@@ -45,7 +45,7 @@ computerMove = getMoveName(randomNumber);
 console.log('ruch komputera to: ' + computerMove);
 displayResult(playerMove, computerMove);
 
-var buttonPaper, buttonRock, buttonScissors, buttonTest, x;
+let buttonPaper, buttonRock, buttonScissors, buttonTest, x;
 
 /**
  * Describe this function...
@@ -60,7 +60,7 @@ function buttonClicked(argButtonName) {
   clearMessages();
   console.log(argButtonName + ' został kliknięty');
   
-  var argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput;
+  let argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput;
   
   /**
    * Describe this function...
@@ -110,7 +110,7 @@ buttonTest.addEventListener('click', function(){ buttonClicked('Guzik TEST'); })
 buttonScissors.addEventListener('click', function(){ buttonClicked('Nożyce'); });
 buttonPaper.addEventListener('click', function(){ buttonClicked('Papier'); });
 buttonRock.addEventListener('click', function(){ buttonClicked('Kamień'); });
-  var buttonPaper, buttonRock, buttonScissors, buttonTest, x;
+  let buttonPaper, buttonRock, buttonScissors, buttonTest, x;
   
 
 }
